@@ -1,0 +1,4 @@
+/*nivo slider não funcionou bem como esperado, por essa razão ocultei os elementos com as seguintes classes.*/
+.nivo-controlNav, .nivo-directionNav{
+    display: none;
+}

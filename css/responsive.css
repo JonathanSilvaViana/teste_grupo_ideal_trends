@@ -1,0 +1,38 @@
+@media only screen and (max-width: 732px) {
+/*talvez inverter por 734*/
+[class*="col-"] {
+    width: 100%;
+  }
+
+/*reset válido para todas ul*/    
+ul{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+    
+    .azul-escuro li{
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        display: inline !important;
+    }
+    
+    .content-menu-desktop{
+        margin: 0 auto !important;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .imagem-menor{
+        width: 70% !important;
+    }
+    
+    .menu-footer a{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    
+    .link-menu-footer{
+        margin-left: 5px;
+    }
+}
